@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(#311919 ,#31314e);
+}
+.clock{
+    height: 600px;
+    width: 500px;
+    margin:auto;
+    position: relative;
+}
+.h img{
+    position: absolute;
+    height: 155px;
+    top: -465px;
+    left: 200px;
+}
+.m img{
+    position: absolute;
+    top: -517px;
+    height: 235px;
+    width: 166px;
+    left: 217px;
+}
+.s img{
+    position: absolute;
+    top: -517px;
+    height: 235px;
+    width: 103px;
+    left: 248px;
+}
+.m,.h,.s,#mm,#hh,#ss{
+position: absolute;
+transform-origin: 50% 212px;
+}
+#hh{
+transform-origin: 51% 159px;
+height: 197px;
+}
