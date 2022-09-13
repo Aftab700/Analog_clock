@@ -56,3 +56,18 @@ git branch -m master
 # Finally, force update to our repository:
 git push -f origin master
 ```
+
+
+### merge history
+```
+git checkout --orphan latest_branch
+
+git pull origin main
+
+git merge master --allow-unrelated-histories
+
+git branch -m main
+
+git push -f origin main
+
+```
