@@ -76,7 +76,4 @@ git remote set-head origin -a
 ```
 
 -----
-<!-- GitAds-Verify: 2N3ILTBZU8D524Q25WEXZAB4AISV7P2E -->
-## GitAds Sponsored
-[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=aftab700/analog_clock@github)](https://gitads.dev/v1/ad-track?source=aftab700/analog_clock@github)
 
